@@ -1,0 +1,90 @@
+@CHARSET "ISO-8859-1";
+div.page {
+	background : white;
+	height: 900px;
+	width : 700px;
+	border : solid black 1px;
+	margin-left : 25%;
+}
+
+h1.gadget {
+	text-align : center;
+	text-decoration : underline;
+}
+
+.articleS:hover {
+	position: absolute;
+	transform: scale(1.25);
+}
+.articleS:active {
+	position: absolute;
+	box-shadow: 0px 0px 30px 3px #ffff00;
+}
+
+div.gadget1 {
+	height: 200px;
+	width : 200px;
+	margin-left : 25%;
+	margin-top : 5%;
+	position : absolute;
+}
+
+img.imgGadget1 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.gadget2 {
+	height: 200px;
+	width : 200px;
+	margin-left : 65%;
+	margin-top : 5%;
+	position : absolute;
+}
+
+img.imgGadget2 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.gadget3 {
+	height: 200px;
+	width : 200px;
+	margin-left : 25%;
+	margin-top : 25%;
+	position : absolute;
+}
+
+img.imgGadget3 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.gadget4 {
+	height: 200px;
+	width : 200px;
+	margin-left : 65%;
+	margin-top : 25%;
+	position : absolute;
+}
+
+img.imgGadget4 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}

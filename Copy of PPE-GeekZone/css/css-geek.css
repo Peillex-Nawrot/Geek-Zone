@@ -6,7 +6,7 @@
 }
 
 body {
-	background-image: url("../img/fondmario.jp");
+	background-image: url("../img/fondmario.jpg");
 	background-repeat: no-repeat;
 }
 
@@ -156,7 +156,7 @@ img.accueil {
 div.pied {
 	border-top: solid black 3px;
 	width: 100%px;
-	height: 100%;
+	height: 100px;
 	margin-right: -8px;
 	margin-left: -8px;
 	margin-top: 770px;
