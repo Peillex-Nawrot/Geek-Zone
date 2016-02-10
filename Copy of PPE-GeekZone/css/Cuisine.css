@@ -16,7 +16,7 @@ div.page {
 	box-shadow: 0px 0px 30px 3px #ffff00;
 }
 
-div.gadget1 {
+div.cuisine1 {
 	height: 200px;
 	width : 200px;
 	margin-left : 25%;
@@ -24,7 +24,7 @@ div.gadget1 {
 	position : absolute;
 }
 
-img.imgGadget1 {
+img.imgCuisine1 {
 	width : 100%;
 	position: absolute;
 	border: #808080 inset 2pt;
@@ -33,7 +33,7 @@ img.imgGadget1 {
 	transition: all 1s;
 }
 
-div.gadget2 {
+div.cuisine2 {
 	height: 200px;
 	width : 200px;
 	margin-left : 65%;
@@ -41,7 +41,7 @@ div.gadget2 {
 	position : absolute;
 }
 
-img.imgGadget2 {
+img.imgCuisine2 {
 	width : 100%;
 	position: absolute;
 	border: #808080 inset 2pt;
@@ -50,7 +50,7 @@ img.imgGadget2 {
 	transition: all 1s;
 }
 
-div.gadget3 {
+div.cuisine3 {
 	height: 200px;
 	width : 200px;
 	margin-left : 25%;
@@ -58,24 +58,7 @@ div.gadget3 {
 	position : absolute;
 }
 
-img.imgGadget3 {
-	width : 100%;
-	position: absolute;
-	border: #808080 inset 2pt;
-	border-radius: 15px 15px 15px 15px;
-	box-shadow: 0px 0px 30px 3px #000000;
-	transition: all 1s;
-}
-
-div.gadget4 {
-	height: 200px;
-	width : 200px;
-	margin-left : 65%;
-	margin-top : 25%;
-	position : absolute;
-}
-
-img.imgGadget4 {
+img.imgCuisine3 {
 	width : 100%;
 	position: absolute;
 	border: #808080 inset 2pt;

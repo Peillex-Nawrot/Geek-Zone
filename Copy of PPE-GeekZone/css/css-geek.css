@@ -177,8 +177,8 @@ p.pied {
 div.titrePhoto {
 	position: absolute;
 	font-size: 50px;
-	margin-left: 34.5%;
-	margin-right: 34.5%;
+	margin-left: 25%;
+	margin-right: 25%;
 	margin-top: -25px;
 	font-family: geekPolice;
 }

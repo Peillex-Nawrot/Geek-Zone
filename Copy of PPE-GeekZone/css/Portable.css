@@ -7,11 +7,6 @@ div.page {
 	margin-left : 25%;
 }
 
-h1.gadget {
-	text-align : center;
-	text-decoration : underline;
-}
-
 .articleS:hover {
 	position: absolute;
 	transform: scale(1.25);
