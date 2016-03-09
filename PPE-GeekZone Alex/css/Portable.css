@@ -1,0 +1,68 @@
+@CHARSET "ISO-8859-1";
+div.page {
+	background : white;
+	height: 900px;
+	width : 700px;
+	border : solid black 1px;
+	margin-left : 25%;
+}
+
+.articleS:hover {
+	position: absolute;
+	transform: scale(1.5);
+}
+.articleS:active {
+	position: absolute;
+	box-shadow: 0px 0px 30px 3px #ffff00;
+}
+
+div.portable1 {
+	height: 200px;
+	width : 200px;
+	margin-left : 25%;
+	margin-top : 5%;
+	position : absolute;
+}
+
+img.imgPortable1 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.portable2 {
+	height: 200px;
+	width : 200px;
+	margin-left : 65%;
+	margin-top : 5%;
+	position : absolute;
+}
+
+img.imgPortable2 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.portable3 {
+	height: 200px;
+	width : 200px;
+	margin-left : 25%;
+	margin-top : 25%;
+	position : absolute;
+}
+
+img.imgPortable3 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
