@@ -1,0 +1,54 @@
+@CHARSET "ISO-8859-1";
+
+@font-face {
+    font-family: "Symtext";
+    src: url('Police/Symtext.ttf');
+}
+
+div.miniPhotoProduit1 {
+	height: 75px;
+	width : 75px;
+	position : absolute;
+}
+
+div.miniPhotoProduit2 {
+	margin-top: 85px;
+	height: 75px;
+	width : 75px;
+	position : absolute;
+}
+
+div.miniPhotoProduit1 {
+	margin-left: 6%;
+	margin-top: 4%;
+	z-index: 1;
+}
+
+div.photoProduit {
+	height: 250px;
+	width : 250px;
+	margin-left: 6%;
+	z-index: 1;
+}	
+											
+div.descProduit {
+	height: 60%;
+	width : 100%;
+	position : absolute;
+	text-shadow: 2px 2px 1px #000000;
+}	
+				
+p.descArticle { 
+	font-family: Symtext;
+	font-size: 13px;
+	color: white;
+}
+
+div.acheterProduit {
+	border: solid black 2px;
+	position: absolute;
+	width: 77%;
+	height: 37%;
+	margin-top: -16%;
+	margin-left: 25%;
+}

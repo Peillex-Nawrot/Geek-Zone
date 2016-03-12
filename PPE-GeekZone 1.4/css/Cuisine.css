@@ -1,0 +1,60 @@
+@CHARSET "ISO-8859-1";
+.articleS:hover {
+	position: absolute;
+	transform: scale(1.5);
+}
+.articleS:active {
+	position: absolute;
+	box-shadow: 0px 0px 30px 3px #ffff00;
+}
+
+div.cuisine1 {
+	height: 200px;
+	width : 200px;
+	margin-left : 25%;
+	margin-top : 5%;
+	position : absolute;
+}
+
+img.imgCuisine1 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.cuisine2 {
+	height: 200px;
+	width : 200px;
+	margin-left : 65%;
+	margin-top : 5%;
+	position : absolute;
+}
+
+img.imgCuisine2 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
+
+div.cuisine3 {
+	height: 200px;
+	width : 200px;
+	margin-left : 25%;
+	margin-top : 25%;
+	position : absolute;
+}
+
+img.imgCuisine3 {
+	width : 100%;
+	position: absolute;
+	border: #808080 inset 2pt;
+	border-radius: 15px 15px 15px 15px;
+	box-shadow: 0px 0px 30px 3px #000000;
+	transition: all 1s;
+}
