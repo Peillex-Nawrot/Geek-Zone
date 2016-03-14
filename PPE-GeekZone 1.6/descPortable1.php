@@ -9,11 +9,24 @@
 <body>
 	<?php $nav_en_cours = 'Portables'; ?> 	<!-- Pour savoir la page en cour -->
 	<?php include 'include/barre-menu.inc.php' ?> 	<!-- Background + titre + rectangle avec le menu -->
-	<?php include_once 'id.php'?>
+	<?php 
+		include_once 'id.php';
+		$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
+		$bdd = new PDO('mysql:host='.$hote.';dbname='.$base, $user, $mdp);
+		$bdd -> exec('SET NAMES utf16');
+	?>
 	
 	<div class = "photoOpacity"></div>
 	<div class="photoCadre">
-	<div class="titrePhoto"> Portables <span class="espace"> decapsuleur <span class="espace"> ! </span></span></div> 	<!-- Titre -->
+		<div class="titrePhoto"> 	<!-- Titre -->
+	<?php
+		$rep = $bdd->prepare('SELECT nom FROM produit WHERE produit_id = ?');
+		$rep->execute(array('13')); 
+		while ($donnees = $rep->fetch()) { 
+			echo $donnees['nom'];
+		}
+	?>
+	</div>
 	
 	<div class="miniPhotoProduit1"> 	<!-- Petite photo n°1 -->
 		<form id="f1" class="f1" method="post"  action="descPortable1.php">
@@ -48,15 +61,23 @@
 	</div>
 	
 	<div class="acheterProduit"> 	<!-- Description a droite du produit -->
-		
+		<?php
+			$rep = $bdd->prepare('SELECT prix FROM produit WHERE produit_id = ?');
+			$rep->execute(array('13')); 
+			while ($donnees = $rep->fetch()) { 
+				echo '<p class = "acheterProduit"> Prix : ' .$donnees['prix'].'€<p>';
+			}
+		?>
+		<div class = "panier">
+			<form id ="f1" class = "f1" method = "post" action = "descPortable1.php"> 
+			<input class = "panier" name = "bPanier" type = "submit" value = "" id = "bPanier" />
+			</form> 
+		</div> 
 	</div>
 	
 	<div class="descProduit"> 	<!-- Description en dessous du produit -->
 	<?php
 	try {
-		$pdo_options[PDO::ATTR_ERRMODE] = PDO::ERRMODE_EXCEPTION;
-		$bdd = new PDO('mysql:host='.$hote.';dbname='.$base, $user, $mdp);
-		$bdd -> exec('SET NAMES utf16');
 		$rep = $bdd->prepare('SELECT detail FROM produit WHERE produit_id = ?');
 		$rep->execute(array('13'));
 		while ($donnees = $rep->fetch()) { 

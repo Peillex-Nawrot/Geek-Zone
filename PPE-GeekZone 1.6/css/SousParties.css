@@ -41,12 +41,11 @@ div.descProduit {
 				
 p.descArticle { 
 	font-family: Symtext;
-	font-size: 13px;
+	font-size: 14px;
 	color: white;
 }
 
 div.acheterProduit {
-	border: solid black 2px;
 	position: absolute;
 	width: 77%;
 	height: 37%;
@@ -54,32 +53,39 @@ div.acheterProduit {
 	margin-left: 25%;
 }
 
-.image1Portable1 {
-	width: 75px;
-	height: 75px;
-	background-image: url("../img/portable/coque-iphone-4-decapsuleur-1.jpg");
-	background-size: 100%;
+p.acheterProduit { 
+	Font-family: Symtext;
+	font-size: 20px;
+	color: white; 
+	text-shadow: 2px 2px 1px #000000;
+	margin-left: 2%; 
+}  
+
+div.panier { 
+	margin-left: 2.5%;
 }
 
-.image2Portable1 {
-	width: 75px;
-	height: 75px;
-	background-image: url("../img/portable/coque-iphone-4-decapsuleur-2.jpg");
-	background-size: 100%;
+input.descImg {
+	width : 100%;
+	position: absolute;
+	border: #808080 solid 1px;
+	border-radius: 15px 15px 15px 15px;
 }
 
-.image3Portable1 {
-	width: 75px;
-	height: 75px;
-	background-image: url("../img/portable/coque-iphone-4-decapsuleur.jpg");
-	background-size: 100%;
+img.descImgBase {
+	width : 250px;
+	position: absolute;
+	border: #808080 solid 1px;
+	border-radius: 15px 15px 15px 15px;
 }
 
-
-
-
-
-
+.panier { 
+	width: 100px; 
+	height: 65px; 
+	background-image: url("../img/AjouterPanier.jpg"); 
+	background-size: 100%; 
+	background-repeat: no-repeat; 
+}
 
 
 
