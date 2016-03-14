@@ -18,10 +18,11 @@ div.miniPhotoProduit2 {
 	position : absolute;
 }
 
-div.miniPhotoProduit1 {
-	margin-left: 6%;
-	margin-top: 4%;
-	z-index: 1;
+div.miniPhotoProduit3 {
+	margin-top: 170px;
+	height: 75px;
+	width : 75px;
+	position : absolute;
 }
 
 div.photoProduit {
@@ -52,3 +53,35 @@ div.acheterProduit {
 	margin-top: -16%;
 	margin-left: 25%;
 }
+
+.image1Portable1 {
+	width: 75px;
+	height: 75px;
+	background-image: url("../img/portable/coque-iphone-4-decapsuleur-1.jpg");
+	background-size: 100%;
+}
+
+.image2Portable1 {
+	width: 75px;
+	height: 75px;
+	background-image: url("../img/portable/coque-iphone-4-decapsuleur-2.jpg");
+	background-size: 100%;
+}
+
+.image3Portable1 {
+	width: 75px;
+	height: 75px;
+	background-image: url("../img/portable/coque-iphone-4-decapsuleur.jpg");
+	background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+

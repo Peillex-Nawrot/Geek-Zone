@@ -33,7 +33,7 @@ img.imgPortable1 {
 	transition: all 1s;
 }
 
-img.descImg {
+input.descImg {
 	width : 100%;
 	position: absolute;
 	border: #808080 solid 1px;

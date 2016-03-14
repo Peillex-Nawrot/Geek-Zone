@@ -1,5 +1,5 @@
 <?php 
-$base = 'GeekZone_vitrine'; 
+$base = 'geekzone_vitrine'; 
 $hote = 'localhost'; 
 $user = 'root'; 
 $mdp = '';
